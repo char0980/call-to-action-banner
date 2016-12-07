@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.img-flex {
+  display: block;
+  width: 50
+%;
+}
+
+.img-circle {
+  width: 30%;
+  position: absolute;
+  top: 3em;
+  left: 3em;
+}
+
+.banner {
+  max-height: 500px;
+  position: relative;
+}
+
+.banner-body {
+  max-width: 50em;
+  position: relative;
+}
+
+.h2 {
+  font-size: 4rem;
+  position: absolute;
+}
+
+p {
+  position: absolute;
+  top: 15em;
+  left: 15em;
+  padding-right: 3em;
+  padding-bottom: 3em;
+  float: left;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.btn {
+  transform: translate(0);
+  overflow: hidden;
+}
+
+.btn-big {
+  position: absolute;
+  left: 14em;
+  top: 12em;
+  display: block;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  border: 3px solid black;
+  border-radius: 3px;
+  padding: 1rem;
+}
+
+
+.btn:hover {
+  float: right;
+}
+
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+
+.banner h2 {
+  font-size: 3rem;
+  position: absolute;
+  top: -9em;
+  left: 7em;
+}
